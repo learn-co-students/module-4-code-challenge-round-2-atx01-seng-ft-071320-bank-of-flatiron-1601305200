@@ -1,2 +1,1 @@
 - Sort transactions alphabetically by category or description.
-- Delete a transaction which will remove it from the table and delete it from the backend.

@@ -5,7 +5,6 @@ import "../stylesheets/App.css";
 const URL = "http://localhost:6001/transactions";
 
 class App extends Component {
-
   constructor() {
     super()
     this.state = {
@@ -13,6 +12,7 @@ class App extends Component {
       filteredBy: ''
     }
   }
+
 
 
   componentDidMount() {
@@ -25,6 +25,7 @@ class App extends Component {
       }
     )
   }
+
 
 
   addTransaction = (event) => {
@@ -50,11 +51,27 @@ class App extends Component {
   }
 
   
+
   filterSearch = (event) => {
     this.setState({
       filteredBy: event.target.value
     })
   }
+
+
+
+  deleteTransaction = (transac) => {
+    const transacs = this.state.transacs.filter(t =>  t.id !== transac.id)
+
+    this.setState({
+      transacs: transacs
+    })
+
+    fetch(URL + `/${transac.id}`, {
+      method: "DELETE",
+    });
+  } 
+
 
 
   render() {
@@ -66,7 +83,7 @@ class App extends Component {
         <div className="ui segment violet inverted">
           <h2>The Royal Bank of Flatiron</h2>
         </div>
-        <AccountContainer transacs={filteredTransacs} filterSearch={this.filterSearch} addTransaction={this.addTransaction} />
+        <AccountContainer transacs={filteredTransacs} filterSearch={this.filterSearch} addTransaction={this.addTransaction} deleteTransaction={this.deleteTransaction} />
       </div>
     );
   }

@@ -8,13 +8,6 @@
       "amount": 1000
     },
     {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
       "id": 3,
       "date": "2019-12-02",
       "description": "South by Southwest Quinoa Bowl at Fresh & Co",
@@ -85,27 +78,6 @@
       "amount": -975
     },
     {
-      "date": "2019-12-18",
-      "description": "Whataburger ",
-      "category": "Food",
-      "amount": "10.00",
-      "id": 13
-    },
-    {
-      "date": "2019-12-19",
-      "description": "P Terry's",
-      "category": "Food",
-      "amount": "10.00",
-      "id": 14
-    },
-    {
-      "date": "2019-12-19",
-      "description": "P Terry's",
-      "category": "Food",
-      "amount": "10.00",
-      "id": 15
-    },
-    {
       "date": "2019-12-20",
       "description": "Paycheck from Tech Company",
       "category": "Income",
@@ -114,17 +86,10 @@
     },
     {
       "date": "2019-12-21",
-      "description": "Grocery Shopping",
+      "description": "Whataburger ",
       "category": "Food",
-      "amount": "100.00",
+      "amount": "-10.00",
       "id": 17
-    },
-    {
-      "date": "2019-12-22",
-      "description": "Christmas Shopping",
-      "category": "Gift",
-      "amount": "120.00",
-      "id": 18
     }
   ]
 }
