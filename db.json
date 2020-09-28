@@ -118,6 +118,13 @@
       "category": "Food",
       "amount": "100.00",
       "id": 17
+    },
+    {
+      "date": "2019-12-22",
+      "description": "Christmas Shopping",
+      "category": "Gift",
+      "amount": "120.00",
+      "id": 18
     }
   ]
 }
