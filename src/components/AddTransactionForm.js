@@ -16,7 +16,13 @@ class AddTransactionForm extends Component {
               step="0.01"
             />
           </div>
-          <button className="ui button" type="submit">
+          <button className="ui button" type="submit"
+            onClick={(e) => {
+              console.log('add',e.target.value);
+              this.addNewTrans(e)
+            }}
+
+          >
             Add Transaction
           </button>
         </form>
