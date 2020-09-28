@@ -83,6 +83,41 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2019-12-18",
+      "description": "Whataburger ",
+      "category": "Food",
+      "amount": "10.00",
+      "id": 13
+    },
+    {
+      "date": "2019-12-19",
+      "description": "P Terry's",
+      "category": "Food",
+      "amount": "10.00",
+      "id": 14
+    },
+    {
+      "date": "2019-12-19",
+      "description": "P Terry's",
+      "category": "Food",
+      "amount": "10.00",
+      "id": 15
+    },
+    {
+      "date": "2019-12-20",
+      "description": "Paycheck from Tech Company",
+      "category": "Income",
+      "amount": "100000.00",
+      "id": 16
+    },
+    {
+      "date": "2019-12-21",
+      "description": "Grocery Shopping",
+      "category": "Food",
+      "amount": "100.00",
+      "id": 17
     }
   ]
 }
